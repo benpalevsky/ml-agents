@@ -11,6 +11,13 @@ public class HelloAgent : Agent
     public Transform goal;
     public Transform death;
 
+    Vector3 startPosition;
+
+    void Start() {
+        startPosition = player.transform.position;
+        Restart();
+    }
+
     public override void CollectObservations(VectorSensor sensor)
     {        
         base.CollectObservations(sensor);
@@ -35,7 +42,7 @@ public class HelloAgent : Agent
     }
 
     void Restart() {
-        player.position = Vector3.zero;
+        player.position = startPosition;
     }
 
     void Update() {
