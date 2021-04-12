@@ -1,0 +1,29 @@
+{
+    "HelloWorld": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results/HelloWorld_1618177039/HelloWorld/HelloWorld-499998.onnx",
+                "reward": 1.0,
+                "creation_time": 1618187375.165785
+            },
+            {
+                "steps": 500002,
+                "file_path": "results/HelloWorld_1618177039/HelloWorld/HelloWorld-500002.onnx",
+                "reward": 1.0,
+                "creation_time": 1618187375.233052
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500002,
+            "file_path": "results/HelloWorld_1618177039/HelloWorld.onnx",
+            "reward": 1.0,
+            "creation_time": 1618187375.233052
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.8.1"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "HelloWorld": {
+        "checkpoints": [
+            {
+                "steps": 18936,
+                "file_path": "results/HelloWorld_1618176500/HelloWorld/HelloWorld-18936.onnx",
+                "reward": null,
+                "creation_time": 1618176663.0861518
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 18936,
+            "file_path": "results/HelloWorld_1618176500/HelloWorld.onnx",
+            "reward": null,
+            "creation_time": 1618176663.0861518
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.8.1"
+    }
+}

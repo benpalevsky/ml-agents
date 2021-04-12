@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1618175658",
+        "python_version": "3.9.2 (default, Mar 26 2021, 23:27:12) \n[Clang 12.0.0 (clang-1200.0.32.29)]",
+        "command_line_arguments": "/usr/local/bin/mlagents-learn config/ppo/HelloWorld.yaml --run-id=HelloWorld_1618175657",
+        "mlagents_version": "0.25.0",
+        "mlagents_envs_version": "0.25.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.20.2",
+        "end_time_seconds": "1618175668"
+    },
+    "total": 10.453282631,
+    "count": 1,
+    "self": 0.007543013000001153,
+    "children": {
+        "run_training.setup": {
+            "total": 0.04191911299999995,
+            "count": 1,
+            "self": 0.04191911299999995
+        },
+        "TrainerController.start_learning": {
+            "total": 10.403820504999999,
+            "count": 1,
+            "self": 0.00035115499999882616,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.403396295,
+                    "count": 1,
+                    "self": 10.403396295
+                },
+                "trainer_threads": {
+                    "total": 1.6239999993672427e-06,
+                    "count": 1,
+                    "self": 1.6239999993672427e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 7.143100000028824e-05,
+                    "count": 1,
+                    "self": 7.143100000028824e-05
+                }
+            }
+        }
+    }
+}

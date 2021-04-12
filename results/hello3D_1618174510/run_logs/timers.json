@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1618174510",
+        "python_version": "3.9.2 (default, Mar 26 2021, 23:27:12) \n[Clang 12.0.0 (clang-1200.0.32.29)]",
+        "command_line_arguments": "/usr/local/bin/mlagents-learn config/ppo/3DBall.yaml --run-id=hello3D_1618174510",
+        "mlagents_version": "0.25.0",
+        "mlagents_envs_version": "0.25.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.20.2",
+        "end_time_seconds": "1618174549"
+    },
+    "total": 38.097997079,
+    "count": 1,
+    "self": 0.007344699999997317,
+    "children": {
+        "run_training.setup": {
+            "total": 0.04339639500000003,
+            "count": 1,
+            "self": 0.04339639500000003
+        },
+        "TrainerController.start_learning": {
+            "total": 38.047255984,
+            "count": 1,
+            "self": 0.000374748000005809,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 38.046808192,
+                    "count": 1,
+                    "self": 38.046808192
+                },
+                "trainer_threads": {
+                    "total": 1.7309999975623214e-06,
+                    "count": 1,
+                    "self": 1.7309999975623214e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 7.131299999940666e-05,
+                    "count": 1,
+                    "self": 7.131299999940666e-05
+                }
+            }
+        }
+    }
+}

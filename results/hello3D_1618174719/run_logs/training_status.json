@@ -1,0 +1,23 @@
+{
+    "3DBall": {
+        "checkpoints": [
+            {
+                "steps": 4444,
+                "file_path": "results/hello3D_1618174719/3DBall/3DBall-4444.onnx",
+                "reward": 1.2145832994331915,
+                "creation_time": 1618174729.232367
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4444,
+            "file_path": "results/hello3D_1618174719/3DBall.onnx",
+            "reward": 1.2145832994331915,
+            "creation_time": 1618174729.232367
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.8.1"
+    }
+}
